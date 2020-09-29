@@ -1,5 +1,8 @@
 export ZSH=$HOME/.oh-my-zsh
 
+# disable update prompt
+DISABLE_AUTO_UPDATE="true"
+
 ZSH_THEME="fishy"
 plugins=(git)
 
