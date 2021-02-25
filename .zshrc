@@ -1,5 +1,9 @@
 export ZSH=$HOME/.oh-my-zsh
 
+# fix garbled japanese
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 # disable update prompt
 DISABLE_AUTO_UPDATE="true"
 
