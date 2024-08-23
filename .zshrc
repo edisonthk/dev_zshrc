@@ -14,9 +14,9 @@ source $ZSH/oh-my-zsh.sh
 
 theme='fishy'
 
-alias dc='docker-compose'
-alias dce='docker-compose exec -u "$(id -u):$(id -g)"'
-alias dcr='docker-compose run --rm'
+alias dc='docker compose'
+alias dce='docker compose exec -u "$(id -u):$(id -g)"'
+alias dcr='docker compose run --rm'
 
 alias gs='git status'
 alias gb='git branch'
