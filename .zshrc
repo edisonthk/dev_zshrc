@@ -22,3 +22,5 @@ alias gs='git status'
 alias gb='git branch'
 alias gd='git diff'
 alias gp='git pull origin "$(git_current_branch)"'
+
+alias c='clear'
